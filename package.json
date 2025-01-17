@@ -8,11 +8,11 @@
         "build": "vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-        "server": "json-server --watch ./data/cities.json --port 8000"
+        "start": "json-server --watch ./data/cities.json --port 3000"
     },
     "dependencies": {
         "country-flag-emoji-polyfill": "^0.1.8",
-        "json-server": "^1.0.0-beta.3",
+        "json-server": "^0.17.4",
         "leaflet": "^1.9.4",
         "react": "^18.3.1",
         "react-datepicker": "^7.5.0",
